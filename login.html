@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Logowanie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="login-container">
+    <h2>Logowanie</h2>
+    <form action="login.php" method="POST" class="form-box">
+        <select name="rola" required>
+            <option value="">Wybierz rolę</option>
+            <option value="SuperAdmin">Administrator</option>
+            <option value="Moderator">Moderator</option>
+            <option value="Magazynier">Magazynier</option>
+            <option value="Wlasciciel">Właściciel</option>
+            <option value="Klient">Klient</option>
+        </select>
+        <input type="text" name="login" placeholder="Login" required>
+        <input type="password" name="haslo" placeholder="Hasło" required>
+        <button type="submit">Zaloguj się</button>
+    </form>
+    <p>Nie masz konta? <a href="register.html">Zarejestruj się</a></p>
+</div>
+</body>
+</html>

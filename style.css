@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #002b00;
+    color: #ccff00;
+}
+
+header {
+    background-color: #004400;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 10px #000;
+}
+
+header h1 {
+    margin: 0;
+    color: #ccff00;
+}
+
+.main-panel {
+    padding: 40px;
+    text-align: center;
+}
+
+.button-group {
+    margin-top: 30px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 25px;
+    background-color: #ccff00;
+    color: #002b00;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e6ff4f;
+}
+
+footer {
+    background-color: #003300;
+    color: #999900;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.login-container {
+    background-color: #004400;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #ccff00;
+    width: 380px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccff00;
+    border-radius: 4px;
+    background-color: #001a00;
+    color: #ffffcc;
+}
+
+input[type="file"] {
+    background-color: #001a00;
+    color: #ffffcc;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: #ccff00;
+    color: #002b00;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #e6ff4f;
+}
+
+.success-message {
+    color: #99ff66;
+    background-color: #004d00;
+    padding: 10px;
+    border: 1px solid #66cc33;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+.error-message {
+    color: #ffcc00;
+    background-color: #4d0000;
+    padding: 10px;
+    border: 1px solid #cc3300;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+a {
+    color: #ccff00;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #ffff00;
+}
